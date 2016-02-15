@@ -51,3 +51,8 @@ for i in range(5):
     if guess_row == ship_row and guess_col == ship_col:
         print "Congratulations! You sunk my battleship!"
         break
+
+    else:
+        guess = guess + 1
+        if guess == 3:
+            print "Game Over"
