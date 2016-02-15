@@ -8,3 +8,6 @@ for x in range(5):
 def print_board(board):
     for row in board:
         print " ".join(row)
+
+print "Let's play Battleship!"
+print_board(board)
