@@ -43,3 +43,7 @@ turn = 0
 for i in range(5):
     for turn in range(4):
         print "Turn", turn+1
+
+    guess_row = int(raw_input("Guess Row:"))
+    guess_col = int(raw_input("Guess Col:"))
+    guess = 0
